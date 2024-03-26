@@ -14,6 +14,8 @@ public class ClientController:Controller{
         _mediator = mediator;
     }
 
+    //Get all clients 
+
     [Route("GetAllClient")]
     [HttpGet]    public async Task<ActionResult<List<ClientDto>>> GetAllClients(){
         var ls= await Task.FromResult(_mediator.Send(new GetAllClientQuery())).Result;
