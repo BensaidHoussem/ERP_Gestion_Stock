@@ -1,0 +1,1 @@
+public sealed record GetClientIdQuery(string id):IQuery<ClientDto>;

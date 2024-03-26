@@ -1,0 +1,6 @@
+@GetWayT_HostAddress = http://localhost:5009
+
+GET {{GetWayT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
