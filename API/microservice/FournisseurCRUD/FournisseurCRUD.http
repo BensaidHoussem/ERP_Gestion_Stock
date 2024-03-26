@@ -1,0 +1,6 @@
+@FournisseurCRUD_HostAddress = http://localhost:5058
+
+GET {{FournisseurCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
