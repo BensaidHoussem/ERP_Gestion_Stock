@@ -9,9 +9,4 @@ Supplier Management: Manage relationships with suppliers, including tracking pro
 ### Technologies Used
 .NET 8: Utilized for backend development.
 Clean Architecture: Implemented to ensure maintainability and scalability of the system.
-### Getting Started
-Clone the Repository: git clone https://github.com/BensaidHoussem/ERP_Gestion_Stock.git
-Navigate to Project Directory: cd ERP_Gestion_Stock
 
-### Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.

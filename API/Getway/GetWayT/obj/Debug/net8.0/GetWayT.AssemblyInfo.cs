@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GetWayT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a378e4acbb401f2034753e13f1e3001f269d0ae0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce138188cad6fdb11e84792098d043858994119c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GetWayT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GetWayT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

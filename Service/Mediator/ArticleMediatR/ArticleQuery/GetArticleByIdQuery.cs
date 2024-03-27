@@ -1,0 +1,1 @@
+public sealed record GetArticleByIdQuery(string id):IQuery<ArticleDto>;

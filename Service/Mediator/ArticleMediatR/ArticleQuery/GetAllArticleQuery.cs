@@ -1,0 +1,1 @@
+public sealed record GetAllArticleQuery:IQuery<List<ArticleDto>>;

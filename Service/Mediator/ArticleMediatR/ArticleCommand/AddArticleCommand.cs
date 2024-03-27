@@ -1,0 +1,1 @@
+public sealed record AddArticleCommand(ArticleDto ArticleDto):ICommand<bool>;

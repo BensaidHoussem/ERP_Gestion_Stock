@@ -1,0 +1,1 @@
+public sealed record DeleteArticleCommand(string id):ICommand<bool>;

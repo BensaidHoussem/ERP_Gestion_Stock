@@ -1,11 +1,22 @@
 var builder = WebApplication.CreateBuilder(args);
 
+var build=new ConfigurationBuilder();
+build.AddJsonFile("appsettings.json");
+var config=build.Build();
 
-
+builder.Services.Configure<DbContextSettings>(config);
+builder.Services.AddControllers().AddNewtonsoftJson(option=>
+option.SerializerSettings.ReferenceLoopHandling=Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+builder.Services.InjectionAll();
 builder.Services.AddHttpClient();
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddCors(option=>
+option.AddPolicy("My Policy",builder=>{
+    builder.AllowAnyOrigin()
+    .AllowAnyHeader()
+    .AllowAnyMethod();
+
+}));
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -21,10 +32,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-
-
-
+app.MapControllers();
+app.UseCors("My Policy");
 
 app.Run();
 
