@@ -5,6 +5,7 @@ CQRS Design Pattern
 ### Features
 Stock Management: Easily manage stock levels, product categories, and inventory.
 Customer Orders: Track customer orders, including order history and status updates.
+
 Supplier Management: Manage relationships with suppliers, including tracking products from suppliers.
 ### Technologies Used
 .NET 8: Utilized for backend development.
