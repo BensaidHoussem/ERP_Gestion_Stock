@@ -1,6 +1,7 @@
 # ERP_Gestion_Stock
 ### Description
-* This project is an ERP (Enterprise Resource Planning) system for managing stock in .NET 8 with a focus on * clean architecture.
+* This project is an ERP (Enterprise Resource Planning) system for managing stock in .NET 8 with a focus on
+* clean architecture.
 CQRS Design Pattern
 ### Features
 Stock Management: Easily manage stock levels, product categories, and inventory.
