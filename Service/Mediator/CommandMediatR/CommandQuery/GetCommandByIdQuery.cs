@@ -1,0 +1,1 @@
+public sealed record GetCommandByIdQuery(string id):IQuery<CommandeDto>;

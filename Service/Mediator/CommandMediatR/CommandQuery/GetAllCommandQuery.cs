@@ -1,0 +1,1 @@
+public sealed record GetAllCommandQuery:IQuery<List<CommandeDto>>;
