@@ -1,0 +1,1 @@
+public sealed record DeleteFournisseurCommand(string id):ICommand<bool>;

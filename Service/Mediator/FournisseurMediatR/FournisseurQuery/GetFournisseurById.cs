@@ -1,0 +1,1 @@
+public sealed record GetFournisseurById(string id):IQuery<FournisseurDto>;

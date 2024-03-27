@@ -1,0 +1,1 @@
+public sealed record UpdateFournisseurCommand(FournisseurDto FournisseurDto):ICommand<bool>;
