@@ -1,0 +1,1 @@
+public sealed record GetAllCmdArticleListeQuery:IQuery<List<ListarticleDto>>;

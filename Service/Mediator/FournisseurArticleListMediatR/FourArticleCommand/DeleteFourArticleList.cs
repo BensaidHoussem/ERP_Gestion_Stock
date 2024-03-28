@@ -1,0 +1,1 @@
+public sealed record DeleteFourArticleList(string id ):ICommand<bool>;

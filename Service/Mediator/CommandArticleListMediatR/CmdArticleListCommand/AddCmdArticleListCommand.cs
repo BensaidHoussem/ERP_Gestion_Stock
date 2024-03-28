@@ -1,0 +1,1 @@
+public sealed record AddCmdArticleListCommand(ListarticleDto ListarticleDtoList):ICommand<bool>;

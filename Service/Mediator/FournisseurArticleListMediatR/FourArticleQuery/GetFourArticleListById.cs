@@ -1,0 +1,1 @@
+public sealed record GetFourArticleListById(string id):IQuery<FouarticleDto>;

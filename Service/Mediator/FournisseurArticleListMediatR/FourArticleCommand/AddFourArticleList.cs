@@ -1,0 +1,1 @@
+public sealed record AddFourArticleList(FouarticleDto FouarticleDto):ICommand<bool>;

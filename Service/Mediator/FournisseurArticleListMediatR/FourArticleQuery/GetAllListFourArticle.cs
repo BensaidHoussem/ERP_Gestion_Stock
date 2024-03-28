@@ -1,0 +1,1 @@
+public sealed record GetAllListFourArticleQuery:IQuery<List<FouarticleDto>>;
